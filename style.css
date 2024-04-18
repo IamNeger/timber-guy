@@ -2,6 +2,7 @@ body{
     background-image: url("лес.jpg");
     background-size: cover;
     background-position: bottom;
+    font-family: "Seymour One", sans-serif;
 }
 img{
     width: 200px;
@@ -16,7 +17,12 @@ html{
 }
 .tree{
     transform: translate(-25%,-20%);
+    transition: 0.9s;
 }
 #guy{
     z-index: 999999999999999999999999999999;
+}
+h4{
+    font-weight: normal;
+    color: #ffffff;
 }
